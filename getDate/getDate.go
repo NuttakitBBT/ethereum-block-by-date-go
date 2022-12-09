@@ -1,6 +1,8 @@
 package getDate
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func SayHi() {
     fmt.Println("Hello world")
