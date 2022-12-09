@@ -5,7 +5,7 @@ import (
     "fmt"
     "log"
     "github.com/ethereum/go-ethereum/ethclient"
-	"github.com/NuttakitBBT/ethereum-block-by-date-go/getDate"
+	"../ethereum-block-by-date-go/getDate"
 )
 
 func main() {
