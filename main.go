@@ -4,13 +4,12 @@ import (
     "context"
     "fmt"
     "log"
-    "math/big"
-
     "github.com/ethereum/go-ethereum/ethclient"
+	"github.com/NuttakitBBT/ethereum-block-by-date-go/getDate"
 )
 
 func main() {
-    client, err := ethclient.Dial("https://mainnet.infura.io")
+    client, err := ethclient.Dial("https://mainnet.infura.io/v3/8e832100bb9d451887b920a0935dc120")
     if err != nil {
         log.Fatal(err)
     }
@@ -19,6 +18,6 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-
+	getDate.SayHi()
     fmt.Println(header.Number.String()) // 5671744
 }
