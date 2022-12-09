@@ -1,4 +1,4 @@
-module example/user/ethereum-block-by-date
+module github.com/NuttakitBBT/ethereum-block-by-date-go
 
 go 1.19
 
