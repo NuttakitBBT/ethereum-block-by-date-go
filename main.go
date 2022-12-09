@@ -5,7 +5,6 @@ import (
     "fmt"
     "log"
     "github.com/ethereum/go-ethereum/ethclient"
-	"ethereum-block-by-date-go"
 )
 
 func main() {
@@ -18,6 +17,6 @@ func main() {
     if err != nil {
         log.Fatal(err)
     }
-	getDate.SayHi()
+	//getDate.SayHi()
     fmt.Println(header.Number.String()) // 5671744
 }
